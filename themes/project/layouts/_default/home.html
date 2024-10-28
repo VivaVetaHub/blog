@@ -1,0 +1,12 @@
+{{ define "main" }}
+  {{ .Content }}
+  {{ $paginator := .Paginate (cond .IsHome (where site.RegularPages "Type" "in" site.Params.mainSections) (.Data.Pages) ) }}
+  {{ range $paginator.Pages }}
+    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    {{ .Summary }}
+  {{ end }}
+{{ end }}
+
+{{- define "pagination" }}
+  {{ partial "pagination" . }}
+{{- end }}
