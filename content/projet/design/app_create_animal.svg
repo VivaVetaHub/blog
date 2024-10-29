@@ -1,0 +1,72 @@
+<svg width="300" height="550" xmlns="http://www.w3.org/2000/svg" font-family="Arial">
+  <rect width="100%" height="100%" fill="#f0f0f0" stroke="#ccc"/>
+
+  <!-- Bloc Menu -->
+  <g id="menu" transform="translate(0, 0)">
+    <rect width="300" height="60" fill="rgba(0, 123, 255, 0.5)" />
+    <text x="50%" y="35" fill="#ffffff" font-size="20" text-anchor="middle">Menu</text>
+  </g>
+
+  <!-- Bloc Contenu -->
+  <g id="contenu" transform="translate(0, 60)">
+    <rect width="300" height="740" fill="#ffffff" />
+    
+    <!-- Titre -->
+    <g id="titre" transform="translate(0, 0)">
+      <text x="50%" y="40" font-size="20" fill="#000" text-anchor="middle">Créer un Nouvel Animal</text>
+    </g>
+
+    <!-- Formulaire -->
+    <g id="formulaire" transform="translate(20, 80)">
+      <text x="0" y="0" font-size="16" fill="#000">Informations de l'Animal</text>
+
+      <!-- Champ Nom -->
+      <g transform="translate(0, 20)">
+        <rect width="260" height="30" fill="#f9f9f9" stroke="#ccc" rx="5"/>
+        <text x="10" y="20" font-size="14" fill="#000">Nom</text>
+      </g>
+
+      <!-- Champ Espèce -->
+      <g transform="translate(0, 60)">
+        <rect width="260" height="30" fill="#f9f9f9" stroke="#ccc" rx="5"/>
+        <text x="10" y="20" font-size="14" fill="#000">Espèce</text>
+      </g>
+
+      <!-- Champ Race -->
+      <g transform="translate(0, 100)">
+        <rect width="260" height="30" fill="#f9f9f9" stroke="#ccc" rx="5"/>
+        <text x="10" y="20" font-size="14" fill="#000">Race</text>
+      </g>
+
+      <!-- Champ Date de Naissance -->
+      <g transform="translate(0, 140)">
+        <rect width="260" height="30" fill="#f9f9f9" stroke="#ccc" rx="5"/>
+        <text x="10" y="20" font-size="14" fill="#000">Date de Naissance</text>
+      </g>
+
+      <!-- Champ Informations Médicales -->
+      <g transform="translate(0, 180)">
+        <rect width="260" height="60" fill="#f9f9f9" stroke="#ccc" rx="5"/>
+        <text x="10" y="20" font-size="14" fill="#000">Informations Médicales</text>
+      </g>
+
+      <!-- Bouton Soumettre -->
+      <g transform="translate(0, 260)">
+        <rect width="120" height="40" fill="#007bff" rx="5"/>
+        <text x="60" y="25" font-size="16" fill="#ffffff" text-anchor="middle">Soumettre</text>
+      </g>
+
+      <!-- Bouton Annuler -->
+      <g transform="translate(150, 260)">
+        <rect width="120" height="40" fill="#dc3545" rx="5"/>
+        <text x="60" y="25" font-size="16" fill="#ffffff" text-anchor="middle">Annuler</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Bloc Footer -->
+  <g id="footer" transform="translate(0, 490)">
+    <rect width="300" height="60" fill="rgba(0, 123, 255, 0.5)" />
+    <text x="50%" y="35" fill="#ffffff" font-size="20" text-anchor="middle">Footer</text>
+  </g>
+</svg>

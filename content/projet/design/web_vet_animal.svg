@@ -1,0 +1,61 @@
+<svg width="1024" height="798" xmlns="http://www.w3.org/2000/svg" font-family="Arial">
+  <rect width="100%" height="100%" fill="#f0f0f0" stroke="#ccc"/>
+<!--Bloc Menu-->
+  <g id="menu" transform="translate(0, 0)">
+    <rect width="1024" height="60" fill="rgba(0, 123, 255, 0.5)"/>
+    <text x="50%" y="35" fill="#ffffff" font-size="20" text-anchor="middle">Menu Vétérinaire</text>
+  </g>
+<!--Bloc Contenu-->
+  <g id="contenu" transform="translate(0, 60)">
+    <rect width="1024" height="708" fill="#ffffff"/>
+<!--Titre-->
+    <g id="titre" transform="translate(20, 0)">
+      <text x="0" y="40" font-size="24" fill="#000">Fiche Médicale de l&apos;Animal</text>
+    </g>
+<!--Informations de l'Animal-->
+    <g id="infos-animal" transform="translate(20, 60)">
+      <text x="0" y="20" font-size="20" fill="#000">Nom: Nom de l&apos;animal</text>
+      <text x="0" y="50" font-size="16" fill="#000">Espèce: Espèce de l&apos;animal</text>
+      <text x="0" y="80" font-size="16" fill="#000">Race: Race de l&apos;animal</text>
+      <text x="0" y="110" font-size="16" fill="#000">Date de Naissance: XX/XX/XXXX</text>
+    </g>
+<!--Vaccinations-->
+    <g id="vaccinations" transform="translate(20, 210)">
+      <text x="0" y="0" font-size="20" fill="#000">Vaccinations</text>
+      <g transform="translate(0, 10)">
+        <rect width="984" height="120" fill="#f8f8f8" stroke="#ccc"/>
+        <text x="20" y="30" font-size="16" fill="#000">Vaccin 1 - Date de renouvellement : XX/XX/XXXX (État : <tspan fill="green">À jour</tspan>)</text>
+        <text x="20" y="60" font-size="16" fill="#000">Vaccin 2 - Date de renouvellement : XX/XX/XXXX (État : <tspan fill="orange">À renouveler</tspan>)</text>
+        <text x="20" y="90" font-size="16" fill="#000">Vaccin 3 - Date de renouvellement : XX/XX/XXXX (État : <tspan fill="red">Retard</tspan>)</text>
+      </g>
+    </g>
+<!--Traitements-->
+    <g id="traitements" transform="translate(20, 380)">
+      <text x="0" y="0" font-size="20" fill="#000">Traitements en Cours</text>
+      <g transform="translate(0, 10)">
+        <rect width="984" height="80" fill="#f8f8f8" stroke="#ccc"/>
+        <text x="20" y="30" font-size="16" fill="#000">Traitement 1 - Prochain rendez-vous : XX/XX/XXXX</text>
+        <text x="20" y="60" font-size="16" fill="#000">Traitement 2 - Prochain rendez-vous : XX/XX/XXXX</text>
+      </g>
+    </g>
+<!--Visites Vétérinaires-->
+    <g id="visites" transform="translate(20, 510)">
+      <text x="0" y="0" font-size="20" fill="#000">Visites Médicales</text>
+      <g transform="translate(0, 10)">
+        <rect width="984" height="80" fill="#f8f8f8" stroke="#ccc"/>
+        <text x="20" y="30" font-size="16" fill="#000">Visite 1 - Date : XX/XX/XXXX - Remarques : Aucune</text>
+        <text x="20" y="60" font-size="16" fill="#000">Visite 2 - Date : XX/XX/XXXX - Remarques : Nécessite suivi</text>
+      </g>
+    </g>
+<!--Bouton de mise à jour-->
+    <g id="update-button" transform="translate(430, 620)">
+      <rect width="150" height="40" fill="#007bff" stroke="#0056b3" style="cursor:pointer;"/>
+      <text x="75" y="26" font-size="16" fill="#ffffff" text-anchor="middle">Mettre à Jour</text>
+    </g>
+  </g>
+<!--Bloc Footer-->
+  <g id="footer" transform="translate(0, 738)">
+    <rect width="1024" height="60" fill="rgba(0, 123, 255, 0.5)"/>
+    <text x="50%" y="35" fill="#ffffff" font-size="20" text-anchor="middle">Footer</text>
+  </g>
+</svg>

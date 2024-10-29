@@ -1,0 +1,54 @@
+<svg width="300" height="800" xmlns="http://www.w3.org/2000/svg" font-family="Arial">
+  <rect width="100%" height="100%" fill="#f0f0f0" stroke="#ccc"/>
+
+  <!-- Bloc Menu -->
+  <g id="menu" transform="translate(0, 0)">
+    <rect width="300" height="60" fill="rgba(0, 123, 255, 0.5)" />
+    <text x="50%" y="35" fill="#ffffff" font-size="20" text-anchor="middle">Menu</text>
+  </g>
+
+  <!-- Bloc Contenu -->
+  <g id="contenu" transform="translate(0, 60)">
+    <rect width="300" height="740" fill="#ffffff" />
+    
+    <!-- Titre -->
+    <g id="titre" transform="translate(0, 40)">
+      <text x="50%" y="40" font-size="20" fill="#000" text-anchor="middle">Mentions Légales</text>
+    </g>
+
+    <!-- Contenu des Mentions Légales -->
+    <g id="mentions" transform="translate(20, 130)">
+      <text x="0" y="0" font-size="16" fill="#000">1. Identité de l'Éditeur :</text>
+      <text x="10" y="20" font-size="14" fill="#666">- Nom de l'entreprise</text>
+      <text x="10" y="40" font-size="14" fill="#666">- Adresse</text>
+      <text x="10" y="60" font-size="14" fill="#666">- Téléphone</text>
+      <text x="10" y="80" font-size="14" fill="#666">- Email</text>
+      <text x="10" y="100" font-size="14" fill="#666">- Numéro RCS</text>
+      
+      <text x="0" y="140" font-size="16" fill="#000">2. Directeur de la Publication :</text>
+      <text x="10" y="160" font-size="14" fill="#666">- Nom du responsable</text>
+
+      <text x="0" y="200" font-size="16" fill="#000">3. Hébergeur :</text>
+      <text x="10" y="220" font-size="14" fill="#666">- Nom de l'hébergeur</text>
+      <text x="10" y="240" font-size="14" fill="#666">- Adresse</text>
+      
+      <text x="0" y="280" font-size="16" fill="#000">4. Conditions d'Utilisation :</text>
+      <text x="0" y="300" font-size="14" fill="#666">- Utilisation des services</text>
+      
+      <text x="0" y="340" font-size="16" fill="#000">5. Protection des Données :</text>
+      <text x="0" y="360" font-size="14" fill="#666">- Politique de confidentialité</text>
+      
+      <text x="0" y="400" font-size="16" fill="#000">6. Cookies :</text>
+      <text x="0" y="420" font-size="14" fill="#666">- Politique des cookies</text>
+      
+      <text x="0" y="460" font-size="16" fill="#000">7. Litiges :</text>
+      <text x="0" y="480" font-size="14" fill="#666">- Résolution des litiges</text>
+    </g>
+  </g>
+
+  <!-- Bloc Footer -->
+  <g id="footer" transform="translate(0, 740)">
+    <rect width="300" height="60" fill="rgba(0, 123, 255, 0.5)" />
+    <text x="50%" y="35" fill="#ffffff" font-size="16" text-anchor="middle">Footer</text>
+  </g>
+</svg>

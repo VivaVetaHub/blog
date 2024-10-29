@@ -1,0 +1,76 @@
+<svg width="1000" height="600" xmlns="http://www.w3.org/2000/svg" font-family="Arial">
+  <rect width="100%" height="100%" fill="#f0f0f0" stroke="#ccc"/>
+
+  <!-- Bloc Menu -->
+  <g id="menu" transform="translate(0, 0)">
+    <rect width="1000" height="60" fill="rgba(0, 123, 255, 0.5)" />
+    <text x="50%" y="35" fill="#ffffff" font-size="20" text-anchor="middle">Menu</text>
+  </g>
+
+  <!-- Bloc Contenu -->
+  <g id="contenu" transform="translate(0, 60)">
+    <rect width="1000" height="480" fill="#ffffff" />
+    
+    <!-- Titre -->
+    <g id="titre" transform="translate(0, 40)">
+      <text x="50%" y="00" font-size="24" fill="#000" text-anchor="middle">Tableau de Bord</text>
+    </g>
+
+    <!-- Aperçu des Animaux -->
+    <g id="animaux" transform="translate(40, 80)">
+      <text x="0" y="20" font-size="20" fill="#000">Mes Animaux</text>
+
+      <!-- Carte Animal 1 -->
+      <g transform="translate(0, 30)">
+        <rect width="280" height="120" fill="#ffffff" stroke="#ccc" stroke-width="1" rx="8" />
+        <text x="60" y="60" font-size="50" text-anchor="middle">🐕</text>
+        <text x="60" y="90" font-size="18" fill="#000" text-anchor="middle">Rex</text>
+        <g transform="translate(140, 20)">
+          <rect width="120" height="30" fill="#007bff" rx="15"/>
+          <text x="60" y="20" font-size="14" fill="#ffffff" text-anchor="middle">2 traitements</text>
+        </g>
+        <g transform="translate(150, 70)">
+          <rect width="100" height="30" fill="#28a745" rx="15"/>
+          <text x="50" y="20" font-size="14" fill="#ffffff" text-anchor="middle">1 à faire</text>
+        </g>
+      </g>
+
+      <!-- Carte Animal 2 -->
+      <g transform="translate(320, 30)">
+        <rect width="280" height="120" fill="#ffffff" stroke="#ccc" stroke-width="1" rx="8" />
+        <text x="60" y="60" font-size="50" text-anchor="middle">🐈</text>
+        <text x="60" y="90" font-size="18" fill="#000" text-anchor="middle">Bella</text>
+        <g transform="translate(150, 70)">
+          <rect width="100" height="30" fill="#28a745" rx="15"/>
+          <text x="50" y="20" font-size="14" fill="#ffffff" text-anchor="middle">2 à faire</text>
+        </g>
+      </g>
+
+      <!-- Carte Animal 3 -->
+      <g transform="translate(640, 30)">
+        <rect width="280" height="120" fill="#ffffff" stroke="#ccc" stroke-width="1" rx="8" />
+        <text x="60" y="60" font-size="50" text-anchor="middle">🐕</text>
+        <text x="60" y="90" font-size="18" fill="#000" text-anchor="middle">Max</text>
+        <g transform="translate(140, 20)">
+          <rect width="100" height="30" fill="#007bff" rx="15"/>
+          <text x="50" y="20" font-size="14" fill="#ffffff" text-anchor="middle">0 traitements</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Notifications et Rappels (identiques à l'exemple précédent) -->
+    <g id="notifications" transform="translate(40, 300)">
+      <text x="0" y="-10" font-size="20" fill="#000">Notifications</text>
+      <rect width="920" height="150" fill="#fff3cd" stroke="#ffc107" stroke-width="2" />
+      <text x="20" y="30" font-size="16" fill="#000">Rappel : Soins à apporter à Animal 1.</text>
+      <text x="20" y="60" font-size="16" fill="#000">Rappel : Prochain rendez-vous pour Animal 2.</text>
+      <text x="20" y="90" font-size="16" fill="#000">Rappel : Vérification de vaccins pour Animal 3.</text>
+    </g>
+  </g>
+
+  <!-- Bloc Footer -->
+  <g id="footer" transform="translate(0, 540)">
+    <rect width="1000" height="60" fill="rgba(0, 123, 255, 0.5)" />
+    <text x="50%" y="35" fill="#ffffff" font-size="20" text-anchor="middle">Footer</text>
+  </g>
+</svg>
